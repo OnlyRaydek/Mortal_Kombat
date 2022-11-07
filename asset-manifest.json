@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mortal_Kombat/static/css/main.ca367bd5.css",
-    "main.js": "/Mortal_Kombat/static/js/main.d0d351b6.js",
+    "main.js": "/Mortal_Kombat/static/js/main.d8ee5a13.js",
     "static/media/crumpled-paper-background-texture-free-photo.jpg": "/Mortal_Kombat/static/media/crumpled-paper-background-texture-free-photo.2559988802e8e8627484.jpg",
     "static/media/menu-sound.mp3": "/Mortal_Kombat/static/media/menu-sound.aa2d648fba93fd9d4ef3.mp3",
     "static/media/fight-mode.mp3": "/Mortal_Kombat/static/media/fight-mode.ec029d0dcfc4dc548451.mp3",
@@ -43,10 +43,10 @@
     "static/media/versus_mk3.png": "/Mortal_Kombat/static/media/versus_mk3.68071de022f0edc18b72.png",
     "index.html": "/Mortal_Kombat/index.html",
     "main.ca367bd5.css.map": "/Mortal_Kombat/static/css/main.ca367bd5.css.map",
-    "main.d0d351b6.js.map": "/Mortal_Kombat/static/js/main.d0d351b6.js.map"
+    "main.d8ee5a13.js.map": "/Mortal_Kombat/static/js/main.d8ee5a13.js.map"
   },
   "entrypoints": [
     "static/css/main.ca367bd5.css",
-    "static/js/main.d0d351b6.js"
+    "static/js/main.d8ee5a13.js"
   ]
 }
