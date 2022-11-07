@@ -25,6 +25,7 @@ const VersusPage = ({ keyName, selectedChampions }) => {
     useEffect(() => {
         setTimeout(() => {
             setStartFight(true);
+            fightAudio.loop = true;
             fightAudio.play();
         }, 4000);
     }, []);
