@@ -1,0 +1,15 @@
+.versus {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    &__avatar {
+        width: 40%;
+        display: flex;
+
+        &.secondChampion {
+            transform: scaleX(-1);
+        }
+    }
+}

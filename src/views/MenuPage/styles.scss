@@ -1,0 +1,12 @@
+.menu-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(126, 133, 116, 0.6) 0%, rgba(0, 0, 1, 0.7) 100%),
+      linear-gradient(to top right, rgba(62, 54, 64, 0.3) 30%, rgba(0, 0, 0, 0.9) 100%),
+      url(../../assets/background/crumpled-paper-background-texture-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

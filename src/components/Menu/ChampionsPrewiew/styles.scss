@@ -1,0 +1,18 @@
+.champions-preview {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    z-index: 10;
+
+    &__champion {
+        width: 200px;
+
+        &.second {
+            transform: scaleX(-1);
+        }
+    }
+}

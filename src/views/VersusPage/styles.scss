@@ -1,0 +1,53 @@
+.versus-page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Mortal_Kombat', cursive;
+  background-image: url(../../assets/background/versus_mk3.png);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &.versus {
+    &::before {
+      content: 'VS';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 108px;
+      font-style: italic;
+      color: rgba(126, 133, 116, 0.5);
+      text-shadow: 2px 2px 4px #292324;
+    }
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 100%;
+    padding: 30px 160px;
+  }
+
+  &__title {
+    align-self: flex-start;
+    font-size: 108px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 8px #464545;
+    color: #777677;
+  }
+
+  &__logo {
+    width: 15%;
+    color: aliceblue;
+
+    &.fight {
+      align-self: center;
+      width: 50%;
+    }
+  }
+}
