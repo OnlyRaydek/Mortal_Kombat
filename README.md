@@ -1,6 +1,6 @@
 # Getting Started with Mortal Kombat
 
-You can try it by yourself [DEMO LINK](https://onlyraydek.github.io/Mortal_Kombat).
+You can try it by yourself [DEMO LINK](https://onlyraydek.github.io/Mortal_Kombat){:target="_blank" rel="noopener"}.
 
 ## Задание
 
