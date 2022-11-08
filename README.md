@@ -2,69 +2,43 @@
 
 You can try it by yourself [DEMO LINK](https://onlyraydek.github.io/Mortal_Kombat).
 
-## Available Scripts
+## Задание
 
-In the project directory, you can run:
+задача: реализвать несколько стартовых из игры mortal combat с управлением от клавиатуры
 
+экраны:
+- (1) выбор бойца (https://www.youtube.com/watch?v=mrRL8DozJ5Y)
+- (2) представление бойца / vs screen (https://www.youtube.com/watch?v=-hRTaVUwVh0)
+
+детали реализации:
+- управлние для (1) с клавиатуры через ArrowUp / Arrow Down / ArrowLeft / ArrowRigt
+- 6 иконок внизу (2) должны работать как в оригинальной игре (versus codes), ротация ограниченного списка символов должно происходить клавишами QWERTY, по клвише на каждый символ
+- переход с (1) на (2) должен происхить через 2 секунды после выбора последнего бойца
+- длительность показа 2го экрана: 4 секунды
+
+подсказки:
+- наличие оригинальных иконок не принципиально
+- анимация выбранного героя не важна
+
+бонусные задания:
+- возможность выбора выбора 2ым игроком бойца
+- комбинации на (2) должны вызывать эффекты (нарп., сообщения на экране или воспроизведение звуков) - пасхалки на выбор соискателя
+- возможность взаимодействия пары игровых клиентов по сети
+
+## Запуск проекта
+
+для запуска проекта локально используйте комманду:
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Проект запустится по порту 3000.\
+Перейдите по [http://localhost:3000](http://localhost:3000) чтобы отобразить приложение в Вашем браузере.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Реализация
 
-### `npm test`
+На первом экране показывается меню выбора персонажей.
+Выбор чемпиона первым игроком осуществляется клавишами стрелок (ArrowUp, ArrowDown, ArrowLeft, ArrowRight).
+Выбор чемпиона вторым игроком осуществляется клавишами I, K, J, L (вне зависимости от регистра).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+После того, как игроки выбрали чемпионов нажатием Enter подтверждается выбор, после которого игроки переходят на экран превью Versus Screen.
+На этом этапе вы можете посредством клавиш q, w, e, r, t, y (вне зависимости от регистра) сменять режим битвы, как и в оригинальной игре.
+Через 4 секунды экран превью сменяется заставкой с эмблемой мортал комбата.
