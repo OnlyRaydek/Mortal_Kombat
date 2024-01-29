@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Champions from '../../../assets';
 
 import './styles.scss';
